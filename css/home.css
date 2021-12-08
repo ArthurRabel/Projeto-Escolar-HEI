@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --cor-principal : #5271FF;
+    --cor-secundaria : #6480ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Monda', sans-serif;
+}
+
+/*Menu*/
+
+#menuDiv{
+    width: 100%;
+    height: 70px;
+    background-color: #5271FF;
+    box-shadow: 0px 0px 6px #000000c2;   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#menuDivIn{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#menuDivIn a{
+    padding: 20px;
+}
+#menuDivIn a:hover{
+    background-color: var(--cor-secundaria);
+}
+#menuDivIn div{
+    display: flex;
+    align-items: center;
+}
+.menuDivInP{
+    font-size: calc(0.5vw + 15px);
+    text-decoration: none;
+    color: white;
+}
+#menuDivInImg{
+    width: 60px;
+    margin-right: 15px;
+}
+
+/*seção 1*/
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px 0;
+}
+.section1 div{
+    margin-right: 20px;
+}
+.section1 div h1{
+    font-size:  calc(1vw + 15px);
+    color: var(--cor-principal);
+    height: 38px
+}
+.section1 div h2{
+    font-size:  calc(1vw + 15px);
+    font-weight: 300;
+    height: 40px;
+}
+.section1 div p{
+    font-size:  calc(0.5vw + 10px);
+    width: calc(10vw + 350px);
+}
+.section1 div svg{
+    width: 45vw;
+    height: 33vw;
+}
+.section2{
+    width: 100%;
+    height: calc(40vw + 300px);
+    background-color: var(--cor-principal);
+}
+.section2 h2{
+    color: white;
+    font-weight: 500;
+    font-size: calc(1vw + 15px);
+    text-align: center;
+    padding: 70px 0 30px 0;
+}
+.section2 p{
+    max-width: 900px;
+    text-align: center;
+    font-size: calc(0.5vw + 10px);
+    color: white;
+    margin: 0 auto 60px;
+}
+.divSvg svg{
+    width: 45vw;
+    height: 30vw;
+}
+.sectionFlex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.divSection ul{
+    list-style: none;
+}
+.divSection ul li{ 
+    margin: 20px;
+    font-size: calc(0.5vw + 12px);
+    color: white;
+}
+.divSection ul li a{
+    text-decoration: underline;
+    font-size: calc(0.5vw + 12px);
+    color: white;
+}
+/*Rodapé*/
+
+footer{
+    width: 100%;
+    background-color: #484848;
+}
+footer > div{
+    color: #CDCDCD;
+    font-size: calc(0.5vw + 8px);
+    width: 90%;
+    padding: 20px 0;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between; 
+}

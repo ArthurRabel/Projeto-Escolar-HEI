@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --cor-principal : #5271FF;
+    --cor-secundaria : #6480ff;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 h1{
+    color: var(--cor-principal);
+    margin: 55px 0 30px 0;
+    font-size:  calc(1vw + 15px);
+}
+.section1 p{
+    margin: 0 40px 20px;
+    text-align: center;
+    max-width: 1100px;
+    font-size: calc(0.5vw + 10px);
+}
+.section1 div{
+    height: 600px;
+    width: 80%;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px 60px;
+}
+
+.section2{
+    width: 100%;
+    height: calc(32.5vw + 720px);
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 h1{
+    color: white;
+    font-weight: 500;
+    margin: 55px 0 30px 0;
+    font-size:  calc(1vw + 15px);
+}
+
+.section2Div{
+    max-width: 1200px;
+    height: 1050px;
+    display: block;
+}
+.SectionDivIn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-width: 1200px;
+}
+.SectionDivInPerson{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 calc(5vw + 10px);
+}
+.SectionDivInPerson hr{
+    width: 190px;
+}
+.SectionDivInPerson p{
+    color: white;
+    text-align: center;
+}
+.SectionDivInPerson img{
+    max-height: 205px;
+    max-width: 250px;
+}
+.subP{
+    font-size: calc(0.5vw + 6px);
+}
+.SectionDivInPerson div{
+    margin: 10px 0;
+}
