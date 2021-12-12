@@ -1,6 +1,6 @@
-key = document.querySelector('#keyColor');
-downSvg = document.querySelector('#downSvg');
-upSvg = document.querySelector('#upSvg');
+let key = document.querySelector('#keyColor');
+let downSvg = document.querySelector('#downSvg');
+let upSvg = document.querySelector('#upSvg');
 
 document.getElementById("keyColor").addEventListener("mouseenter", function( event ) {
     downSvg.style.display = 'none';

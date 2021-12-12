@@ -51,7 +51,7 @@ a{
     width: 50px;
 }
 #NavBarHover{
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(255, 255, 255, 0.863);
 }
 #NavBarHover:hover{
     color: white;
@@ -174,7 +174,6 @@ footer > div{
     .section2 p{font-size: calc(0.5vw + 17px);}
     .divSection ul li{ font-size: calc(0.5vw + 17px);}
     .divSection ul li a{font-size: calc(0.5vw + 17px);}
-    footer > div{font-size: calc(0.5vw + 12px);}
 }
 @media (min-width:1020px) {
     #menuDiv{height: 70px;}
@@ -194,6 +193,4 @@ footer > div{
     .divSection ul{width: auto;}
     .divSection ul li{font-size: calc(1vw + 7px);}
     .divSection ul li a{font-size: calc(1vw + 7px);}
-    footer > div{font-size: calc(0.5vw + 10px);}
 }
-@media (min-width:1281px) { /* hi-res laptops and desktops */ }
