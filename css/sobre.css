@@ -19,8 +19,10 @@
     font-size: calc(0.5vw + 10px);
 }
 .section1 div{
-    height: 600px;
+    height: 40vw;
     width: 80%;
+    max-width:1200px;
+    max-height: 800px;
     border: solid 1px;
     display: flex;
     flex-direction: column;
