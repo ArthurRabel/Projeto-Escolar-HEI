@@ -28,11 +28,19 @@
     justify-content: center;
     align-items: center;
 }
+.Name{
+    margin: 30px 0 0;
+    width: 100%;
+}
+.Name p{
+    text-align: end;
+    font-weight: 600;
+}
 
 /*artigo anterior e o proximo*/
 
 .navBottom nav{
-    margin: 40px auto;
+    margin: 0px auto 40px;
     width: 85%;
     max-width: 1300px;
     display: flex;
@@ -59,11 +67,11 @@
     .ConteudoFlex img{width: 35%;margin: 0 5% 0 5%;}
     .Conteudo h2{font-size: calc(0.5vw + 17px);margin: 35px 0 15px;}
     .ConteudoFlex p{font-size: calc(0.5vw + 12.5px);width: 60%;margin: 0;}
-    .navBottom nav{margin: 50px auto;}
+    .navBottom nav{margin: 25px auto 50px;}
 }
 @media (min-width:1020px) {
     .Conteudo img{width: 60%;}
     .Conteudo h2{font-size: calc(0.5vw + 20px);margin: 40px 0 30px;}
     .Conteudo p{font-size: calc(0.5vw + 15px);}
-    .navBottom nav{margin: 60px auto;}
+    .navBottom nav{margin: 30px auto 60px;}
 }
