@@ -123,5 +123,5 @@
     .divSection ul li a{font-size: calc(1vw + 7px);}
 }
 @media (min-width:1281px) {
-    .section1{max-width: none;padding: 40px;}
+    .section1{max-width: none;padding: 40px;margin:50px auto;}
 }
