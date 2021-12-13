@@ -4,20 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../css/MenuFooter.css">
     <link rel="stylesheet" href="css/home.css">
     <title>HEI - inicio</title>
 </head>
 <body>
+    <!--Menu-->
     <header id="menuDiv">
         <div id="menuDivIn">
             <div>
-                <img id="menuDivInImg" src="public/logo.png">
-                <p class="menuDivInP">HEI</p>
+                <img id="menuDivInImg" src="../public/logo.png">
+                <p class="menuDivInP"><a href="index.html">HEI</a></p>
             </div>
-            <div>
-                <a class="menuDivInP" href="html/sobre.html"><p class="menuDivInP" id="NavBarHover">Sobre</p></a>
-            </div>
+            <nav class="menuOption">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li id="keyColor"><a href="#">Artigos<svg id="downSvg" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7 10l5 5 5-5H7z"/></svg><svg id="upSvg"xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7 14l5-5 5 5H7z"/></svg></a>
+                        <!--MenuDropdown-->
+                        <ul>
+                            <li><a href="html/Model.html">&bull; Historia da informatica</a></li>
+                            <li><a href="html/Model.html">&bull; Evolução dos PC</a></li>
+                            <li><a href="html/Model.html">&bull; Historia da internet</a></li>
+                            <li><a href="html/Model.html">&bull; Importantes pessoas</a></li>
+                            <li><a href="html/Model.html">&bull; Mulheres Importantes</a></li>
+                            <li><a href="html/Model.html">&bull; Adaptação à Tecnologica</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <span id="MenuMobile" class="material-icons">menu</span>
         </div>
+        <nav class="menuOptionMobile">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li id="subMenuMobileButton" ><a href="#">Artigos<svg id="downSvgMobile" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7 10l5 5 5-5H7z"/></svg><svg id="upSvgMobile"xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M7 14l5-5 5 5H7z"/></svg></a>
+                    <!--MenuDropdown-->
+                    <ul class="subMenuMobile">
+                        <li><a href="html/Model.html">&bull; Historia da informatica</a></li>
+                        <li><a href="html/Model.html">&bull; Evolução dos PC</a></li>
+                        <li><a href="html/Model.html">&bull; Historia da internet</a></li>
+                        <li><a href="html/Model.html">&bull; Importantes pessoas</a></li>
+                        <li><a href="html/Model.html">&bull; Mulheres Importantes</a></li>
+                        <li><a href="html/Model.html">&bull; Adaptação à Tecnologica</a></li>
+                    </ul>
+                </li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="section1">
         <div class="section1Text">
@@ -39,13 +75,13 @@
             <div class="divSection">
                 
                 <ul>
-                    <li>- <a href="html/Model.html">História da informática</a></li>
-                    <li>- <a href="html/Model.html">Evolução dos computadores</a></li>
-                    <li>- <a href="html/Model.html">História da internet</a></li>
-                    <li>- <a href="html/Model.html">Importantes personalidades para informática</a></li>
-                    <li>- <a href="html/Model.html">Importantes mulheres que impactaram o mundo da informática</a></li>
-                    <li>- <a href="html/Model.html">Como as pessoas se adaptaram à tecnologia</a></li>
-                    <li>- <a href="html/Model.html">Referências</a></li>
+                    <li>&bull; <a href="html/Model.html">História da informática</a></li>
+                    <li>&bull; <a href="html/Model.html">Evolução dos computadores</a></li>
+                    <li>&bull; <a href="html/Model.html">História da internet</a></li>
+                    <li>&bull; <a href="html/Model.html">Importantes personalidades para informática</a></li>
+                    <li>&bull; <a href="html/Model.html">Importantes mulheres que impactaram o mundo da informática</a></li>
+                    <li>&bull; <a href="html/Model.html">Como as pessoas se adaptaram à tecnologia</a></li>
+                    <li>&bull; <a href="html/Model.html">Referências</a></li>
                 </ul>
             </div>
         </div>    
@@ -56,5 +92,6 @@
             <p>Instituto Federal de Brasilia</p>
         </div>
     </footer>
+    <script src="../js/menu.js"></script>
 </body>
 </html>

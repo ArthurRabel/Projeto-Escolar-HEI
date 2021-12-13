@@ -1,61 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monda&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
-:root{
-    --cor-principal : #5271FF;
-    --cor-secundaria : #6480ff;
-}
-
 /*tela de 220px até 320px*/
-
-*{
-    margin: 0;
-    padding: 0;
-}
-a{
-    font-family: 'Roboto', sans-serif;
-}
-h1, h2, h3{
-    font-family: 'Poppins', sans-serif;
-}
-p{
-    font-family: 'Monda', sans-serif;
-}
-a{
-    text-decoration: none;
-}
-/*Menu*/
-#menuDiv{
-    width: 100%;
-    height: 60px;
-    background-color: #5271FF;
-    box-shadow: 0px 0px 6px #0000008e;   
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-}
-#menuDivIn{
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-}
-#menuDivIn div{
-    display: flex;
-    align-items: center;
-}
-.menuDivInP{
-    border: none;
-    color: white;
-    font-size: calc(0.5vw + 15px);
-    background-color: #5271FF;
-}
-#menuDivInImg{
-    width: 50px;
-}
-#NavBarHover{
-    color: rgba(255, 255, 255, 0.863);
-}
-#NavBarHover:hover{
-    color: white;
-}
 
 /*seção 1*/
 
@@ -106,7 +49,8 @@ a{
     text-align: center;
     font-size: calc(0.5vw + 10px);
     color: white;
-    margin: 0 30px 40px;
+    margin: 0 auto 40px;
+    width: 95%;
 }
 .divSvg{
     display: flex;
@@ -131,54 +75,38 @@ a{
     margin: 20px auto 40px;
 }
 .divSection ul li{ 
-    margin: 20px;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: var(--cor-secundaria);
+    border-bottom: 3px solid #3a5eff;;
     font-size: calc(0.5vw + 10px);
     color: white;
 }
 .divSection ul li a{
-    text-decoration: underline;
+    width: 100%;
     font-size: calc(0.5vw + 10px);
     color: white;
 }
 
-/*Rodapé*/
-
-footer{
-    width: 100%;
-    background-color: #484848;
-}
-footer > div{
-    color: #CDCDCD;
-    font-size: calc(0.5vw + 8px);
-    width: 90%;
-    padding: 20px 0;
-    margin: auto; 
-    display: flex;
-    justify-content: space-between; 
-}
 @media (min-width:430px) {
     .section1 div h1{font-size: calc(1vw + 17px);}
     .section1 div h2{font-size: calc(1vw + 15px);}
     .section1 div p{font-size: calc(1vw + 12px);}
     .section2 h2{font-size: calc(1vw + 15px);}
-    .section2 p{font-size: calc(0.5vw + 12px);}
-    .divSection ul li{ font-size: calc(0.5vw + 12px);}
-    .divSection ul li a{font-size: calc(0.5vw + 12px);}
-    footer > div{font-size: calc(0.5vw + 10px);}
+    .section2 p{font-size: calc(1vw + 12px); width: 90%;}
+    .divSection ul li{font-size: calc(1vw + 12px);}
+    .divSection ul li a{font-size: calc(1vw + 12px);}
 }
 @media (min-width:801px) {
     .section1 div h1{font-size: calc(1vw + 20px);}
     .section1 div h2{font-size: calc(1vw + 18px);}
     .section1 div p{font-size: calc(1vw + 13px);}
     .section2 h2{font-size: calc(1vw + 20px);}
-    .section2 p{font-size: calc(0.5vw + 17px);}
-    .divSection ul li{ font-size: calc(0.5vw + 17px);}
-    .divSection ul li a{font-size: calc(0.5vw + 17px);}
+    .section2 p{font-size: calc(1vw + 13px); width: 85%;}
+    .divSection ul li{font-size: calc(1vw + 13px);}
+    .divSection ul li a{font-size: calc(1vw + 13px);}
 }
 @media (min-width:1020px) {
-    #menuDiv{height: 70px;}
-    .menuDivInP{font-size: calc(0.5vw + 20px);}
-    #menuDivInImg{width: 65px;}
     .section1{flex-direction:row;}
     .section1Text{padding: 30px;}
     .section1 div h1{font-size: calc(1vw + 15px);}
@@ -186,11 +114,11 @@ footer > div{
     .section1 div p{font-size: calc(1vw + 7px);}
     .section1 div svg{width: 43vw;height: 38vw;}
     .section2 h2{font-size: calc(1vw + 15px);}
-    .section2 p{font-size: calc(1vw + 7px);}
+    .section2 p{font-size: calc(1vw + 7px); width: 80%;}
     .sectionFlex{flex-direction: row; justify-content: flex-start; margin: 0 40px;}
     .divSvg{width: 50%;}
     .divSvg svg{width: 43vw;height: 38vw;}
     .divSection ul{width: auto;}
-    .divSection ul li{font-size: calc(1vw + 7px);}
+    .divSection ul li{font-size: calc(1vw + 7px); padding: 20px;}
     .divSection ul li a{font-size: calc(1vw + 7px);}
 }
