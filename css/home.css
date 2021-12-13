@@ -109,8 +109,8 @@
 @media (min-width:1020px) {
     .section1{flex-direction:row;}
     .section1Text{padding: 30px;}
-    .section1 div h1{font-size: calc(1vw + 15px);}
-    .section1 div h2{font-size: calc(1vw + 13px);}
+    .section1 div h1{font-size: calc(1vw + 14px);}
+    .section1 div h2{font-size: calc(1vw + 12px);}
     .section1 div p{font-size: calc(1vw + 7px);}
     .section1 div svg{width: 43vw;height: 38vw;}
     .section2 h2{font-size: calc(1vw + 15px);}
@@ -121,4 +121,7 @@
     .divSection ul{width: auto;}
     .divSection ul li{font-size: calc(1vw + 7px); padding: 20px;}
     .divSection ul li a{font-size: calc(1vw + 7px);}
+}
+@media (min-width:1281px) {
+    .section1{max-width: none;padding: 40px;}
 }
