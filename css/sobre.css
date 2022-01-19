@@ -69,7 +69,9 @@
     text-align: center;
 }
 .SectionDivInPerson img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 190px;
+    margin-bottom: 20px;
 }
 #SectionDivInPersonSpace{
     display: none;
@@ -106,7 +108,7 @@
         max-width: 1200px;
         display: grid;
         grid-template-columns: 30vw 30vw;
-        grid-template-rows: 60vw 60vw 60vw 60vw;
+        grid-template-rows: calc(50 + 40vw) 65vw 60vw 60vw;
         grid-column-gap: 7vw;
     }
 }
@@ -117,8 +119,8 @@
     }
     .section2Div{
         grid-template-columns: 20vw 20vw 20vw;
-        grid-template-rows: 40vw 40vw 40vw;
-        grid-column-gap: 10vw;
+        grid-template-rows: 48vw 38vw 40vw;
+        grid-column-gap: 15vw;
     }
     .SectionDivInPerson>svg{
         width: 15vw;
