@@ -1,7 +1,7 @@
 .Conteudo{
     width: 90%;
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 10px auto 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,9 @@
 .Conteudo p{
     font-size: calc(0.5vw + 11px);
     margin: 0px auto 20px;
+}
+.Conteudo li{
+    font-size: calc(0.5vw + 11px);
 }
 .Conteudo img{
     width: 90%;
@@ -59,17 +62,17 @@
 
 @media (min-width:801px) {
     .Conteudo{width: 80%;}
-    .ConteudoFlex{flex-direction: row; align-items: flex-start; justify-content: space-between;} 
-    .Conteudo img{width: 80%;}
     .ConteudoFlex img{width: 35%;margin: 0 5% 0 5%;}
     .Conteudo h2{font-size: calc(0.5vw + 17px);margin: 35px 0 15px;}
     .ConteudoFlex p{font-size: calc(0.5vw + 12.5px);width: 60%;margin: 0;}
+    .ConteudoFlex li{font-size: calc(0.5vw + 12.5px);}
     .navBottom nav{margin: 25px auto 50px;}
 }
 @media (min-width:1020px) {
     .Conteudo img{width: 60%;}
     .Conteudo h2{font-size: calc(0.5vw + 20px);margin: 40px 0 30px;}
     .Conteudo p{font-size: calc(0.5vw + 15px);}
+    .Conteudo li{font-size: calc(0.5vw + 15px);}
     .navBottom nav{margin: 30px auto 60px;}
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -109,7 +112,6 @@ h1{
 #bibliografia{
     font-family: 'Poppins', sans-serif;
     color: #5272ffde;
-    margin-left: -200px;
     margin-bottom: 8px;
 }
 #linkh2{
@@ -121,14 +123,15 @@ h1{
     font-family: 'Poppins', sans-serif;
     color: #4660d6
 }
+.Conteudo ul{
+    overflow: hidden;
+    list-style-type: none;
+}
 #li{
-    margin-left: 50px;
-    padding: 10px;
-    font-size: 18px;
+    padding: 20px 0;
 }
 #sec{
     background-color: #ffffff;
-    width: 900px;
     margin-top: 25px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #002fff3b;

@@ -84,16 +84,6 @@
 h1, h2, h3{
     color: rgba(44, 62, 80, 1);
 }
-.seta{
-    width: 50%;
-}
-.navBottom #antprox{
-    margin: 14px auto -64px;
-    width: 85%;
-    max-width: 1300px;
-    display: flex;
-    justify-content: space-between;
-}
 #lktxt{
     color: #f6f8ff;
     font-size: 16px;

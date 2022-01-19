@@ -10,7 +10,7 @@
 .Conteudo h2{
     font-size: calc(0.5vw + 13px);
     text-align: center;
-    margin: 30px auto 10px;
+    margin: 30px auto 15px;
 }
 .Conteudo p{
     font-size: calc(0.5vw + 11px);
@@ -94,9 +94,6 @@ h1, h2, h3{
     display: flex;
     justify-content: space-between;
 }
-#title{
-    margin-top: 45px;
-}
 #linkpersonfemin{
     background-image: linear-gradient(to bottom, rgb(252, 252, 252), rgb(230, 254, 255), rgb(194, 250, 255));
     margin-top: 50px;
@@ -105,7 +102,6 @@ h1, h2, h3{
 }
 #pdiv{
     margin-top: 20px;
-    margin-left: 50px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 #botao{
@@ -124,36 +120,30 @@ h1, h2, h3{
     text-align: center;
 }
 #imgFundo{
-    width: 1000px;
-    height: 500px;
+    width: 100%;
 }
 #legenda{
     font-size: 15px;
-    margin-left: -70px;
     font-family: 'Raleway', sans-serif;
     color: rgba(72, 72, 72, 1)
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
 #personagens{
     font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
     color: rgba(44, 62, 80, 1);
-    margin-left: -547px;
 }
 #charlesbabbage{
-    height: 461px;
-    width: 306px;
-    margin-left: -490px;
+    height: 50%;
 }
 #legendass{
     font-size: 15px;
-    margin-left: 4px;
     font-family: 'Raleway', sans-serif;
     color: rgba(72, 72, 72, 1)
 }
 #hquatro{
     color: rgba(44, 62, 80, 1);
     font-weight: bold;
-    margin-left: -440px;
     font-size: 20px;
     text-decoration: underline;
 }
@@ -166,7 +156,6 @@ h1, h2, h3{
 }
 #legends{
     font-size: 15px;
-    margin-left: 170px;
     font-family: 'Raleway', sans-serif;
     color: rgba(72, 72, 72, 1);
 }
@@ -174,20 +163,13 @@ span{
     color: #5271FF;
     text-decoration: underline;
 }
-#hquatrooo{
-    color: rgba(44, 62, 80, 1);
-    font-weight: bold;
-    margin-left: -700px;
-    font-size: 20px;
-    text-decoration: underline;
-}
+
 #enigma{
     width: 300px;
     height: 250px;
 }
 #legendz{
     font-size: 15px;
-    margin-left: 300px;
     font-family: 'Raleway', sans-serif;
     color: rgba(72, 72, 72, 1);
 }
@@ -198,7 +180,6 @@ span{
 #hfor{
     color: rgba(44, 62, 80, 1);
     font-weight: bold;
-    margin-left: -630px;
     font-size: 20px;
     text-decoration: underline;
 }
@@ -220,7 +201,6 @@ span{
 }
 #jankoum{
     height: 400px;
-    margin-left: -450px;
     width: 360px;
 }
 #bug{
