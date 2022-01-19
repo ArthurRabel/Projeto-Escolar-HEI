@@ -13,8 +13,7 @@
     max-width: 90%;
 }
 .section1 p{
-    margin: 0 40px 20px;
-    text-align: center;
+    margin: 0 auto 5px;
     max-width: 90%;
     font-size: calc(0.5vw + 10px);
 }
@@ -154,4 +153,15 @@
         grid-template-rows: 400px 400px 400px;
         grid-column-gap: 100px;
     }
+}
+.links{
+    color: #CDCDCD;
+    font-family: 'Roboto', sans-serif;
+}
+.links:hover{
+    color: white;
+    text-decoration: underline;
+}
+#mark{
+    color: #5271ff;
 }

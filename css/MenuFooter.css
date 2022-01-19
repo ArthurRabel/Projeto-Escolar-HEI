@@ -88,7 +88,7 @@ html, body {
     display: none;
     left: 2;
     position: absolute;
-    width: 320px;
+    width: 240px;
 }
 .menuOption ul li:hover ul{
     display: block;
@@ -168,8 +168,9 @@ footer > div{
 @media (min-width:801px) {
     #menuDiv{height: 70px;}
     #menuDivIn{width: 85%;}
-    .menuOption ul ul{left: 0;}
+    .menuOption ul ul{left: 2; width: 270px;}
 }
 @media (min-width:1020px) {
     #menuDivIn{width: 90%;}
+    .menuOption ul ul{width: 285px;}
 }
