@@ -101,8 +101,8 @@ h1, h2, h3{
 }
 #linkpersonfemin{
     background-image: linear-gradient(to bottom, rgb(252, 252, 252), rgb(230, 254, 255), rgb(194, 250, 255));
-    margin-top: 50px;
-    height: 400px;
+    margin-top: 50px;   
+    padding-bottom: 20px;
     width: 100%;
 }
 #pdiv{
@@ -160,7 +160,7 @@ h1, h2, h3{
     font-family: 'Raleway', sans-serif;
     color: rgba(72, 72, 72, 1);
 }
-span{
+#jgimitacao span{
     color: #5271FF;
     text-decoration: underline;
 }
