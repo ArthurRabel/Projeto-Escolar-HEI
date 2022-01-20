@@ -78,7 +78,7 @@ html, body {
 .menuOption ul li ul li a{
     padding: 10px 0;
 }
-#upSvg{
+#downSvg{
     display: none;
 }
 
@@ -89,9 +89,6 @@ html, body {
     left: 2;
     position: absolute;
     width: 240px;
-}
-.menuOption ul li:hover ul{
-    display: block;
 }
 .menuOption ul ul li a{
     display: block;

@@ -31,13 +31,16 @@ document.querySelector("#subMenuMobileButton").addEventListener("click", functio
 let key = document.querySelector('#keyColor');
 let downSvg = document.querySelector('#downSvg');
 let upSvg = document.querySelector('#upSvg');
+let MenuDropdown = document.querySelector('#MenuDropdown');
 
 document.querySelector("#keyColor").addEventListener("click", function() {
     if(upSvg.style.display == 'none'){
         downSvg.style.display = 'none';
         upSvg.style.display = 'inline';
+        MenuDropdown.style.display = 'none';
     }else{
         downSvg.style.display = 'inline';
         upSvg.style.display = 'none';
+        MenuDropdown.style.display = 'block';
     }
 });
