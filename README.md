@@ -8,7 +8,7 @@
  O projeto escolar sobre historia e evolução da informatica.
 
 ## Layout mobile
-![Mobile 1](https://github.com/ArthurUndefined/Projeto-Escolar-HEI/blob/master/public/readme/mobile.PNG) ![Mobile 2](https://github.com/ArthurUndefined/Projeto-Escolar-HEI/blob/master/public/readme/mobile2.PNG)
+![Mobile 1](https://github.com/ArthurUndefined/Projeto-Escolar-HEI/blob/master/public/readme/mobile1.PNG) ![Mobile 2](https://github.com/ArthurUndefined/Projeto-Escolar-HEI/blob/master/public/readme/mobile2.PNG)
 
 ## Layout web
 ![Web 1](https://github.com/ArthurUndefined/Projeto-Escolar-HEI/blob/master/public/readme/desktop.PNG)
