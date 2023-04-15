@@ -23,3 +23,4 @@
 
 # Authors
 - Arthur Rabelo <code><a href="https://github.com/ArthurUndefined">Github</a></code>
+- Henrique Cardoso <code><a href="https://github.com/CardosoMMV">Github</a></code>
